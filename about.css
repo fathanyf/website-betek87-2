@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} 
+
+/* header-section */
+.header{
+    height: 5vh;
+}
+nav{
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background: #90e20b;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+}
+nav .logo{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li{
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover{
+  color: #111;
+  background: #fff;
+}
+nav ul li a.order, a:hover{
+  color: white;
+  background: orange;
+}
+nav .menu-btn i{
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
+
+/* about */
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+    grid-gap: 0.2rem;
+    grid-template-areas: 
+    "gambar-1 konten-1";
+    height: 50vh;
+    margin-top: 8%;
+}
+
+.about .isi-about{
+    grid-area: konten-1;
+    text-align: justify;
+    padding-right: 3%;
+}
+
+.about .gambar-about{
+    grid-area: gambar-1;
+}
+
+.about .about-img{
+  height: 80%;
+  width: 88%;
+}
+
+/* maps */
+.lokasi{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+    grid-gap: 0.2rem;
+    grid-template-areas: 
+    "header-1a header-1a"
+    "maps alamat"
+    "maps transport";
+    height: 50vh;
+    margin-top: 2%;
+  }
+
+.lokasi .judul-lokasi{
+  grid-area: header-1a;
+}
+
+.lokasi .alamat-hotel{
+  grid-area: alamat;
+}
+
+.lokasi .tes-map{
+  grid-area: maps;
+  height: 250px;
+  width: 500px;
+}
+
+.lokasi .transport{
+  grid-area: transport;
+  margin-top: -30%;
+}
+
+/* nearby */
+.nearby{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+    grid-gap: 0.2rem;
+    grid-template-areas: 
+    "header-2 header-2"
+    "gambar-2 konten-2"
+    "gambar-2a konten-2a"
+    "gambar-2b konten-2b";
+    height: 175vh;
+    padding-top: 2%;
+}
+
+.nearby .judul-nearby{
+  grid-area: header-2 ;
+}
+
+.nearby .konten-nearby-landmark{
+  grid-area: konten-2;
+}
+
+.nearby .konten-nearby-fnb{
+  grid-area: konten-2a;
+}
+
+.nearby .konten-transport{
+  grid-area: konten-2b;
+}
+
+.nearby .gambar-nearby-landmark{
+  grid-area: gambar-2;
+}
+
+.nearby .gambar-nearby-fnb{
+  grid-area: gambar-2a;
+}
+
+.nearby .gambar-transport{
+  grid-area: gambar-2b;
+}
+
+.nearby .landmark-img{
+  height: 90%;
+  width: 90%;
+}
+
+.nearby .fnb-img{
+  height: 90%;
+  width: 90%;
+}
+
+.nearby .transport-img{
+  height: 90%;
+  width: 90%;
+}
+
+/* footer */
+  .footer{
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+    grid-gap: 0.2rem;
+    grid-template-areas: 
+    "kontak sosmed booking"
+    "kontak sosmed booking"
+    "kaki kaki kaki";
+    height: 40vh;
+    margin-top: 1%;
+    background-color: rgb(255, 217, 0);
+}
+
+.footer .kontak{
+  grid-area: kontak;
+}
+
+.footer .sosmed{
+  grid-area: sosmed;
+}
+
+.footer .instgram-img{
+  height: 70px;
+  width: 70px;
+}
+
+.footer .booking{
+  grid-area: booking;
+  margin-top: 10%;
+}
+
+.footer .booking .button{
+  background-color: #90e20b;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.footer .kaki{
+  grid-area: kaki;
+  text-align: center;
+}
+
+/* media screen */
+@media (max-width: 1000px){
+    nav{
+      padding: 0 40px 0 50px;
+    }
+  }
+  @media (max-width: 920px) {
+    nav .menu-btn i{
+      display: block;
+    }
+    #click:checked ~ .menu-btn i:before{
+      content: "\f00d";
+    }
+    nav ul{
+      position: fixed;
+      top: 80px;
+      left: -100%;
+      background: #90e20b;
+      height: 100vh;
+      width: 100%;
+      text-align: center;
+      display: block;
+      transition: all 0.3s ease;
+    }
+    #click:checked ~ ul{
+      left: 0;
+    }
+    nav ul li{
+      width: 100%;
+      margin: 40px 0;
+    }
+    nav ul li a{
+      width: 100%;
+      margin-left: -100%;
+      display: block;
+      font-size: 20px;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    #click:checked ~ ul li a{
+      margin-left: 0px;
+    }
+    nav ul li a.active,
+    nav ul li a:hover{
+      background: none;
+      color: black;
+    }
+    .about{
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+      grid-template-areas:
+      "gambar-1"
+      "konten-1";
+       width: 100%;
+       height: 100vh;
+       margin-top: 22%;
+    }
+    .about .about-img{
+      width: 100%;
+    }
+    .lokasi{
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+      grid-template-areas:
+       "header-1a"
+       "maps"
+       "alamat"
+       "transport";
+       width: 100%;
+       height: 50vh;
+       margin-top: 6%;
+    }
+    .lokasi .transport{
+      margin-top: -2.5%;
+    }
+    .lokasi .tes-map{
+      width: 100%;
+    }
+    .nearby{
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+      grid-template-areas:
+       "header-2"
+       "gambar-2"
+       "konten-2"
+       "gambar-2a"
+       "konten-2a"
+       "gambar-2b"
+       "konten-2b";
+       width: 100%;
+       height: 150vh;
+       margin-top: 10%;
+    }
+    .footer{
+      grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+        grid-template-areas:
+        "kontak"
+        "sosmed"
+        "booking"
+        "kaki";
+        height: 52vh;
+        width: 100%;
+    }
+  }
+  @media (max-width: 970px) and (min-width: 500px) {
+    .about{
+      height: 70vh;
+      margin-top: 10%;
+    }
+    .isi-about{
+      margin-top: -8%;
+    }
+    .lokasi{
+      margin-top: 24%;
+      height: 60vh;
+    }
+    .nearby{
+      margin-top: -10%;
+      height: 180vh;
+    }
+    .footer{
+      height: 60vh;
+    }
+  }

@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} 
+
+body{
+  width: 100%;
+}
+
+/* header-section */
+.header{
+    height: 20vh;
+    width: 100%;
+}
+nav{
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background: #90e20b;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+}
+nav .logo{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li{
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover{
+  color: #111;
+  background: #fff;
+}
+nav ul li a.order, a:hover{
+  color: white;
+  background: orange;
+}
+nav .menu-btn i{
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
+.carosel-gallery{
+  padding-top: 5%;
+}
+/* isian akomodasi */
+/* kamar 1 */
+.kamar-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+    grid-gap: 0.2rem;
+    grid-template-areas: 
+    "header-1 header-1"
+    "gambar-1 konten-1";
+    margin-top: 1%;
+    height: 55vh;
+}
+
+.kamar-1 .judul-kamar-1{
+    grid-area: header-1;
+    text-align: center;
+}
+
+.kamar-1 .konten-kamar-1{
+    grid-area: konten-1;
+}
+
+.kamar-1 .gambar-kamar-1{
+    grid-area: gambar-1;
+}
+
+.kamar-1 .kamar1-img{
+  height: 90%;
+  width: 75%;
+}
+
+.kamar-1 .fasilitas-kamar-1{
+  grid-area: fasilitas-1;
+}
+
+/* kamar 2 */
+
+.kamar-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+    grid-gap: 0.2rem;
+    grid-template-areas: 
+    "header-2 header-2"
+    "gambar-2 konten-2";
+    height: 55vh;
+
+}
+
+.kamar-2 .judul-kamar-2{
+    grid-area: header-2;
+    text-align: center;
+}
+
+.kamar-2 .konten-kamar-2{
+    grid-area: konten-2;
+}
+
+.kamar-2 .fasilitas-kamar-2{
+    grid-area: fasilitas-2;
+}
+
+.kamar-2 .gambar-kamar-2{
+    grid-area: gambar-2;
+}
+
+.kamar-2 .kamar2-img{
+  height: 90%;
+  width: 75%;
+}
+
+/* kamar 3 */
+.kamar-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+    grid-gap: 0.2rem;
+    grid-template-areas: 
+    "header-3 header-3"
+    "gambar-3 konten-3";
+    height: 55vh;
+}
+
+.kamar-3 .judul-kamar-3{
+    grid-area: header-3;
+    text-align: center;
+}
+
+.kamar-3 .konten-kamar-3{
+    grid-area: konten-3;
+}
+
+.kamar-3 .fasilitas-kamar-3{
+    grid-area: fasilitas-3;
+}
+
+.kamar-3 .gambar-kamar-3{
+    grid-area: gambar-3;
+}
+
+.kamar-3 .kamar3-img{
+  height: 90%;
+  width: 75%;
+}
+
+/* fasilitas */
+.fasilitas{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+  grid-gap: 0.2rem;
+  grid-template-areas: 
+  "header-4 header-4"
+  "gambar-4a konten-4a"
+  "gambar-4b konten-4b";
+  height: 55vh;
+}
+
+.fasilitas .judul-fasilitas{
+  grid-area: header-4;
+}
+
+.fasilitas .fasilitas-kamar{
+  grid-area: konten-4a;
+}
+
+.fasilitas .gambar-fasilitas-kamar{
+  grid-area: gambar-4a;
+}
+
+.fasilitas .kamar-fasil-img{
+  height: 90%;
+  width: 75%;
+}
+
+.fasilitas .fasilitas-hotel{
+  grid-area: konten-4b;
+}
+
+.fasilitas .gambar-fasilitas-hotel{
+  grid-area: gambar-4b;
+}
+
+.fasilitas .gambar-fasilitas-hotel .fasilitas-hotel-img{
+  height: 80%;
+  width: 75%;
+}
+/* footer */
+
+.footer{
+    display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+      grid-gap: 0.2rem;
+      grid-template-areas: 
+      "kontak sosmed booking"
+      "kontak sosmed booking"
+      "kaki kaki kaki";
+      height: 40vh;
+      margin-top: 17%;
+      background-color: rgb(255, 217, 0);
+  }
+  
+  .footer .kontak{
+    grid-area: kontak;
+  }
+  
+  .footer .sosmed{
+    grid-area: sosmed;
+  }
+  
+  .footer .instgram-img{
+    height: 70px;
+    width: 70px;
+  }
+  
+  .footer .booking{
+    grid-area: booking;
+    margin-top: 10%;
+  }
+
+  .footer .booking .button{
+    background-color: #90e20b;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .footer .kaki{
+    grid-area: kaki;
+    text-align: center;
+  }
+
+/* media-screen */
+@media (max-width: 1000px){
+    nav{
+      padding: 0 40px 0 50px;
+    }
+  }
+  @media (max-width: 920px) {
+    body{
+      width: 100%;
+    }
+    nav .menu-btn i{
+      display: block;
+    }
+    #click:checked ~ .menu-btn i:before{
+      content: "\f00d";
+    }
+    nav ul{
+      position: fixed;
+      top: 80px;
+      left: -100%;
+      background:#90e20b;
+      height: 100vh;
+      width: 100%;
+      text-align: center;
+      display: block;
+      transition: all 0.3s ease;
+    }
+    #click:checked ~ ul{
+      left: 0;
+    }
+    nav ul li{
+      width: 100%;
+      margin: 40px 0;
+    }
+    nav ul li a{
+      width: 100%;
+      margin-left: -100%;
+      display: block;
+      font-size: 20px;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    #click:checked ~ ul li a{
+      margin-left: 0px;
+    }
+    nav ul li a.active,
+    nav ul li a:hover{
+      background: none;
+      color: black;
+    }
+
+    .header{
+      width: 100%;
+      height: 10%;
+    }
+
+    .header .isi-judul{
+      width: 100%;
+    }
+
+    .kamar-1{
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+      grid-template-areas:
+       "header-1"
+       "gambar-1"
+       "konten-1";
+       width: 100%;
+       padding-top: -5%;
+       height: 60vh;
+    }
+    .kamar-1 .judul-kamar-1{
+      text-align: left;
+    }
+    .kamar-1 .fasilitas-kamar-1{
+      margin-left: 6%;
+    }
+    .kamar-1 .kamar1-img{
+      width: 100%;
+    }
+    .kamar-2{
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+      grid-template-areas:
+       "header-2"
+       "gambar-2"
+       "konten-2";
+       width: 100%;
+       height: 60vh;
+       margin-top: -10%;
+    }
+    .kamar-2 .fasilitas-kamar-2{
+      margin-left: 6%;
+    }
+    .kamar-2 .kamar2-img{
+      width: 100%;
+    }
+    .kamar-3{
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+      grid-template-areas:
+       "header-3"
+       "gambar-3"
+       "konten-3";
+       width: 100%;
+       height: 60vh;
+       margin-top: -10%;
+    }
+    .kamar-3 .fasilitas-kamar-3{
+      margin-left: 6%;
+    }
+    .kamar-3 .kamar3-img{
+      width: 100%;
+    }
+    .fasilitas{
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+      grid-template-areas:
+       "header-4"
+       "gambar-4a"
+       "konten-4a"
+       "gambar-4b"
+       "konten-4b";
+       width: 100%;
+       height: 80vh;
+       margin-top: -10%;
+    }
+    .fasilitas .kamar-fasil-img{
+      width: 100%;
+    }
+    .fasilitas .fasilitas-hotel-img{
+      width: 100%;
+    }
+    .footer{
+      grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+        grid-template-areas:
+        "kontak"
+        "sosmed"
+        "booking"
+        "kaki";
+        width: 100%;
+        height: 52vh;
+    }
+  }
+  @media (max-width: 970px) and (min-width: 500px) {
+    .kamar-1{
+      height: 80vh;
+    }
+    .kamar-2{
+      margin-top: 1%;
+      height: 70vh;
+    }
+    .kamar-3{
+      height: 70vh;
+    }
+    .fasilitas{
+      height: 100vh;
+    }
+    .footer{
+      margin-top: 30%;
+      height: 60vh;
+    }
+  }
