@@ -67,6 +67,9 @@ nav .menu-btn i{
 input[type="checkbox"]{
   display: none;
 }
+.menubar{
+  margin-top: -1%;
+}
 .carosel-gallery{
   padding-top: 5%;
 }

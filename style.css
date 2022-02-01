@@ -8,10 +8,7 @@
 } 
 
 /* header-section */
-.header .logo-img{
-height: 10%;
-width: 10%;
-}
+
 .header{
     height: 20vh;
     width: 100%;
@@ -70,12 +67,12 @@ input[type="checkbox"]{
   display: none;
 }
 .menubar{
-  margin-top: -14%;
+  margin-top: 0%;
 }
 /* isian */
   /* karosel */
     .gambar-judul{
-      padding-top: 1.5%;
+      padding-top: 4%;
       width: 100%;
       height: 500px;
     }
@@ -201,9 +198,7 @@ input[type="checkbox"]{
   body{
     width: 100%;
   }
-  .header .logo-img{
-    display: none;
-  }
+
   nav .menu-btn i{
     display: block;
   }
