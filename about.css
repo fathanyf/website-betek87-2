@@ -288,7 +288,7 @@ input[type="checkbox"]{
       "gambar-1"
       "konten-1";
        width: 100%;
-       height: 100vh;
+       height: 105vh;
        margin-top: 22%;
     }
     .about .about-img{
@@ -303,7 +303,7 @@ input[type="checkbox"]{
        "alamat"
        "transport";
        width: 100%;
-       height: 50vh;
+       height: 60vh;
        margin-top: 6%;
     }
     .lokasi .transport{
@@ -324,8 +324,11 @@ input[type="checkbox"]{
        "gambar-2b"
        "konten-2b";
        width: 100%;
-       height: 150vh;
+       height: 168vh;
        margin-top: 10%;
+    }
+    .nearby .list-nearby{
+      margin-left: 10%;
     }
     .footer{
       grid-template-columns: 1fr;
@@ -337,6 +340,9 @@ input[type="checkbox"]{
         "kaki";
         height: 52vh;
         width: 100%;
+    }
+    .footer .booking{
+      margin-left: 25%;
     }
   }
   @media (max-width: 970px) and (min-width: 500px) {
