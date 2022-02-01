@@ -16,7 +16,7 @@
 }
 nav{
   display: flex;
-  height: 105px;
+  height: 80px;
   width: 100%;
   background: #90e20b;
   align-items: center;
@@ -67,7 +67,7 @@ input[type="checkbox"]{
   display: none;
 }
 .menubar{
-  margin-top: 0%;
+  margin-top: -1%;
 }
 /* isian */
   /* karosel */
