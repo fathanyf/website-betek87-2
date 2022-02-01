@@ -330,6 +330,12 @@ input[type="checkbox"]{
     .nearby .list-nearby{
       margin-left: 10%;
     }
+    .nearby .fnb-img{
+      margin-top: -17%;
+    }
+    .nearby .konten-nearby-fnb{
+      margin-top: -8%;
+    }
     .footer{
       grid-template-columns: 1fr;
         grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
