@@ -101,10 +101,9 @@ input[type="checkbox"]{
     grid-gap: 0.2rem;
     grid-template-areas: 
     "header-1a header-1a"
-    "maps alamat"
-    "maps transport";
+    "maps alamat";
     height: 50vh;
-    margin-top: 2%;
+    margin-top: 5%;
   }
 
 .lokasi .judul-lokasi{
@@ -121,10 +120,6 @@ input[type="checkbox"]{
   width: 500px;
 }
 
-.lokasi .transport{
-  grid-area: transport;
-  margin-top: -30%;
-}
 
 /* nearby */
 .nearby{
@@ -325,7 +320,7 @@ input[type="checkbox"]{
        "konten-2b";
        width: 100%;
        height: 168vh;
-       margin-top: 10%;
+       margin-top: -10%;
     }
     .nearby .list-nearby{
       margin-left: 10%;
