@@ -20,7 +20,7 @@ nav{
   display: flex;
   height: 80px;
   width: 100%;
-  background: #90e20b;
+  background: #222222;
   align-items: center;
   justify-content: space-between;
   padding: 0 50px 0 100px;
@@ -256,7 +256,7 @@ input[type="checkbox"]{
   }
 
   .footer .booking .button{
-    background-color: #90e20b;
+    background-color: #222222;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -293,7 +293,7 @@ input[type="checkbox"]{
       position: fixed;
       top: 80px;
       left: -100%;
-      background:#90e20b;
+      background:#222222;
       height: 100vh;
       width: 100%;
       text-align: center;
@@ -320,7 +320,7 @@ input[type="checkbox"]{
     nav ul li a.active,
     nav ul li a:hover{
       background: none;
-      color: black;
+      color: orange;
     }
 
     .header{
@@ -416,6 +416,9 @@ input[type="checkbox"]{
         width: 100%;
         height: 52vh;
         margin-top: 4%;
+    }
+    .footer .booking{
+      margin-left: 25%;
     }
   }
   @media (max-width: 970px) and (min-width: 500px) {
