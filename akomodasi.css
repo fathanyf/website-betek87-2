@@ -73,6 +73,10 @@ input[type="checkbox"]{
 .carosel-gallery{
   padding-top: 5%;
 }
+
+.isi-judul{
+  margin-left: 2%;
+}
 /* isian akomodasi */
 /* kamar 1 */
 .kamar-1{
@@ -85,6 +89,7 @@ input[type="checkbox"]{
     "gambar-1 konten-1";
     margin-top: 1%;
     height: 55vh;
+    margin-left: 2%;
 }
 
 .kamar-1 .judul-kamar-1{
@@ -120,6 +125,7 @@ input[type="checkbox"]{
     "header-2 header-2"
     "gambar-2 konten-2";
     height: 55vh;
+    margin-left: 2%;
 
 }
 
@@ -155,6 +161,7 @@ input[type="checkbox"]{
     "header-3 header-3"
     "gambar-3 konten-3";
     height: 55vh;
+    margin-left: 2%;
 }
 
 .kamar-3 .judul-kamar-3{
@@ -190,6 +197,7 @@ input[type="checkbox"]{
   "gambar-4a konten-4a"
   "gambar-4b konten-4b";
   height: 55vh;
+  margin-left: 2%;
 }
 
 .fasilitas .judul-fasilitas{
@@ -405,6 +413,9 @@ input[type="checkbox"]{
     .fasilitas .fasilitas-hotel-img{
       width: 100%;
     }
+    .fasilitas .list-fasilitas{
+      margin-left: 5%;
+    }
     .footer{
       grid-template-columns: 1fr;
         grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
@@ -426,7 +437,7 @@ input[type="checkbox"]{
       height: 80vh;
     }
     .kamar-2{
-      margin-top: 1%;
+      margin-top: -5%;
       height: 70vh;
     }
     .kamar-3{

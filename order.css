@@ -65,7 +65,9 @@ input[type="checkbox"]{
 .menubar{
   margin-top: -1%;
 }
-
+.isi-judul{
+  margin-left: 2%;
+}
 /* isian order */
 .pesan{
   display: grid;
@@ -77,6 +79,7 @@ input[type="checkbox"]{
       "wa wa";
       padding-top: 7%;
       height: 60vh;
+      margin-left: 2%;
 }
 
 .pesan .traveloka{

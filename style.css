@@ -69,17 +69,22 @@ input[type="checkbox"]{
 .menubar{
   margin-top: -1%;
 }
+
+.carosel-gallery{
+  margin-left: 2%;
+}
 /* isian */
   /* karosel */
     .gambar-judul{
       padding-top: 4%;
       width: 100%;
-      height: 500px;
+      height: 600px;
     }
   /* akomodasi */
   .akomodasi{
     padding-top: -10%;
     height: 70vh;
+    margin-left: 2%; margin-right: 2%;
   }
   .column {
     float: left;
@@ -130,6 +135,7 @@ input[type="checkbox"]{
     "gambar konten";
     height: 100vh;
     width: 100%;
+    margin-left: 2%; 
 }
 
 .tentang-kami .judul-tentang-kami{
@@ -140,6 +146,7 @@ input[type="checkbox"]{
       grid-area: konten;
       margin-left: 6%;
       text-align: justify;
+      margin-right: 10%;
   }
 
   .tentang-kami .tentang-img{
@@ -151,6 +158,8 @@ input[type="checkbox"]{
   .rating{
     margin-top: -25%;
     height: 52vh;
+    /* margin-right: 3%; */
+    margin-left: 2%;
   }
   /* footer */
   .footer-inter{
@@ -264,8 +273,8 @@ input[type="checkbox"]{
     margin-top: 12%;
   }
   .gambar-kartu{
-    height: 90%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
   }
   .tentang-kami{
     grid-template-columns: 1fr;
