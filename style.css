@@ -76,7 +76,7 @@ input[type="checkbox"]{
 /* isian */
   /* karosel */
     .gambar-judul{
-      padding-top: 4%;
+      padding-top: 1%;
       width: 100%;
       height: 600px;
     }
@@ -152,11 +152,11 @@ input[type="checkbox"]{
   .tentang-kami .tentang-img{
       grid-area: gambar;
       width: 100%;
-      height: 65%;
+      height: 75%;
   }
   /* rating */
   .rating{
-    margin-top: -25%;
+    margin-top: -24%;
     height: 52vh;
     /* margin-right: 3%; */
     margin-left: 2%;
