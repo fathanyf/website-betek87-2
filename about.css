@@ -200,8 +200,9 @@ input[type="checkbox"]{
     background-color: rgb(255, 217, 0);
 }
 
-.footer .kontak{
+.footer .alamat{
   grid-area: kontak;
+  margin-left: 3%;
 }
 
 .footer .sosmed{
@@ -234,6 +235,7 @@ input[type="checkbox"]{
 .footer .kaki{
   grid-area: kaki;
   text-align: center;
+  margin-top: 5%;
 }
 
 /* media screen */
