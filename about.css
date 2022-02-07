@@ -86,6 +86,7 @@ input[type="checkbox"]{
     grid-area: konten-1;
     text-align: justify;
     padding-right: 3%;
+    margin-left: 4%;
 }
 
 .about .gambar-about{
@@ -93,8 +94,8 @@ input[type="checkbox"]{
 }
 
 .about .about-img{
-  height: 80%;
-  width: 88%;
+  height: 100%;
+  width: 100%;
 }
 
 /* maps */
@@ -137,7 +138,7 @@ input[type="checkbox"]{
     "gambar-2 konten-2"
     "gambar-2a konten-2a"
     "gambar-2b konten-2b";
-    height: 175vh;
+    height: 190vh;
     padding-top: 2%;
     margin-left: 2%;
 }
@@ -148,43 +149,55 @@ input[type="checkbox"]{
 
 .nearby .konten-nearby-landmark{
   grid-area: konten-2;
+  margin-left: 4%;
+  margin-top: 3%;
 }
 
 .nearby .konten-nearby-fnb{
   grid-area: konten-2a;
+  margin-left: 4%;
+  margin-top: 3%;
 }
 
 .nearby .konten-transport{
   grid-area: konten-2b;
+  margin-left: 4%;  
+  margin-top: 3%;
 }
 
 .nearby .gambar-nearby-landmark{
   grid-area: gambar-2;
+  margin-top: 3%;
 }
 
 .nearby .gambar-nearby-fnb{
   grid-area: gambar-2a;
+  margin-top: 3%;
 }
 
 .nearby .gambar-transport{
   grid-area: gambar-2b;
+  margin-top: 3%;
 }
 
 .nearby .landmark-img{
-  height: 90%;
-  width: 90%;
+  height: 100%;
+  width: 100%;
 }
 
 .nearby .fnb-img{
-  height: 90%;
-  width: 90%;
+  height: 100%;
+  width: 100%;
 }
 
 .nearby .transport-img{
-  height: 90%;
-  width: 90%;
+  height: 100%;
+  width: 100%;
 }
 
+.nearby .list-nearby{
+  margin-left: 2%;
+}
 /* footer */
   .footer{
   display: grid;
@@ -198,6 +211,7 @@ input[type="checkbox"]{
     height: 40vh;
     margin-top: 1%;
     background-color: rgb(255, 217, 0);
+    margin-top: 2%;
 }
 
 .footer .alamat{
@@ -293,6 +307,7 @@ input[type="checkbox"]{
        width: 100%;
        height: 105vh;
        margin-top: 22%;
+       margin-left: 0%;
     }
     .about .about-img{
       width: 100%;
@@ -308,6 +323,7 @@ input[type="checkbox"]{
        width: 100%;
        height: 60vh;
        margin-top: -10%;
+       margin-left: 0%;
     }
     .lokasi .transport{
       margin-top: -2.5%;
@@ -329,6 +345,7 @@ input[type="checkbox"]{
        width: 100%;
        height: 168vh;
        margin-top: -10%;
+       margin-left: 0%;
     }
     .nearby .list-nearby{
       margin-left: 10%;

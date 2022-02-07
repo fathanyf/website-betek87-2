@@ -196,7 +196,7 @@ input[type="checkbox"]{
   "header-4 header-4"
   "gambar-4a konten-4a"
   "gambar-4b konten-4b";
-  height: 55vh;
+  height: 70vh;
   margin-left: 2%;
 }
 
@@ -213,8 +213,8 @@ input[type="checkbox"]{
 }
 
 .fasilitas .kamar-fasil-img{
-  height: 90%;
-  width: 75%;
+  height: 80%;
+  width: 80%;
 }
 
 .fasilitas .fasilitas-hotel{
@@ -226,8 +226,8 @@ input[type="checkbox"]{
 }
 
 .fasilitas .gambar-fasilitas-hotel .fasilitas-hotel-img{
-  height: 80%;
-  width: 75%;
+  height: 90%;
+  width: 80%;
 }
 /* footer */
 
