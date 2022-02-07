@@ -229,6 +229,10 @@ input[type="checkbox"]{
   height: 90%;
   width: 80%;
 }
+
+.fasilitas .list-fasilitas{
+  margin-left: 4%;
+}
 /* footer */
 
 .footer{
