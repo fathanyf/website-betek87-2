@@ -74,6 +74,11 @@ input[type="checkbox"]{
   padding-top: 5%;
 }
 
+.logo-img{
+  height: 80px;
+  width: 80px;
+}
+
 .isi-judul{
   margin-left: 2%;
 }
@@ -99,6 +104,7 @@ input[type="checkbox"]{
 
 .kamar-1 .konten-kamar-1{
     grid-area: konten-1;
+    margin-left: -10%;
 }
 
 .kamar-1 .gambar-kamar-1{
@@ -136,6 +142,7 @@ input[type="checkbox"]{
 
 .kamar-2 .konten-kamar-2{
     grid-area: konten-2;
+    margin-left: -10%;
 }
 
 .kamar-2 .fasilitas-kamar-2{
@@ -171,6 +178,7 @@ input[type="checkbox"]{
 
 .kamar-3 .konten-kamar-3{
     grid-area: konten-3;
+    margin-left: -10%;
 }
 
 .kamar-3 .fasilitas-kamar-3{
@@ -206,6 +214,7 @@ input[type="checkbox"]{
 
 .fasilitas .fasilitas-kamar{
   grid-area: konten-4a;
+  margin-left: -10%;
 }
 
 .fasilitas .gambar-fasilitas-kamar{
@@ -219,6 +228,7 @@ input[type="checkbox"]{
 
 .fasilitas .fasilitas-hotel{
   grid-area: konten-4b;
+  margin-left: -10%;
 }
 
 .fasilitas .gambar-fasilitas-hotel{

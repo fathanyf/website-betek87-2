@@ -74,6 +74,11 @@ input[type="checkbox"]{
   margin-top: -1%;
 }
 
+.logo-img{
+  height: 80px;
+  width: 80px;
+}
+
 .carosel-gallery{
   margin-left: 2%;
 }
