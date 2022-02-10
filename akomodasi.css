@@ -375,12 +375,15 @@ input[type="checkbox"]{
     }
     .kamar-1 .fasilitas-kamar-1{
       margin-left: 6%;
+      margin-right: 10%;
     }
     .kamar-1 .konten-kamar-1{
       margin-left: 3%;
+      margin-right: 6%;
     }
     .kamar-1 .kamar1-img{
-      width: 100%;
+      width: 100%;  
+      margin-left: -2%;
     }
     .kamar-2{
       grid-template-columns: 1fr;
@@ -395,12 +398,15 @@ input[type="checkbox"]{
     }
     .kamar-2 .fasilitas-kamar-2{
       margin-left: 6%;
+      margin-right: 10%;
     }
     .kamar-2 .konten-kamar-2{
       margin-left: 3%;
+      margin-right: 6%;
     }
     .kamar-2 .kamar2-img{
       width: 100%;
+      margin-left: -2%;
     }
     .kamar-3{
       grid-template-columns: 1fr;
@@ -415,12 +421,15 @@ input[type="checkbox"]{
     }
     .kamar-3 .fasilitas-kamar-3{
       margin-left: 6%;
+      margin-right: 10%;
     }
     .kamar-3 .konten-kamar-3{
       margin-left: 3%;
+      margin-right: 6%;
     }
     .kamar-3 .kamar3-img{
       width: 100%;
+      margin-left: -2%;
     }
     .fasilitas{
       grid-template-columns: 1fr;
@@ -437,6 +446,7 @@ input[type="checkbox"]{
     }
     .fasilitas .kamar-fasil-img{
       width: 100%;
+      margin-left: -5%;
     }
     .judul-fasil-kamar{
       margin-left: 10%;
