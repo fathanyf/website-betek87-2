@@ -334,6 +334,9 @@ input[type="checkbox"]{
   .footer-inter .booking{
     margin-left: 25%;
   }
+  .sosmed{
+    margin-left: 2%;
+  }
 }
 .content{
   position: absolute;
