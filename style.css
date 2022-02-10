@@ -92,9 +92,10 @@ input[type="checkbox"]{
     }
   /* akomodasi */
   .akomodasi{
-    padding-top: -10%;
+    padding-top: 2%;
     height: 70vh;
     margin-left: 2%; margin-right: 2%;
+    text-align: justify;
   }
   .column {
     float: left;
@@ -147,6 +148,7 @@ input[type="checkbox"]{
     height: 106vh;
     width: 100%;
     margin-left: 2%; 
+    margin-top: 10%;
 }
 
 .tentang-kami .judul-tentang-kami{
@@ -167,7 +169,7 @@ input[type="checkbox"]{
   }
   /* rating */
   .rating{
-    margin-top: -24%;
+    margin-top: -22%;
     height: 52vh;
     /* margin-right: 3%; */
     margin-left: 2%;
@@ -310,6 +312,11 @@ input[type="checkbox"]{
   .rating{
     /* height: 20vh; */
     margin-top: 25rem;
+  }
+
+  .rating .card-rating-text{
+    text-align: justify;
+    margin-top: 1%;
   }
 
 .footer-inter{

@@ -93,7 +93,7 @@ input[type="checkbox"]{
     "header-1 header-1"
     "gambar-1 konten-1";
     margin-top: 1%;
-    height: 55vh;
+    height: 60vh;
     margin-left: 2%;
 }
 
@@ -130,8 +130,9 @@ input[type="checkbox"]{
     grid-template-areas: 
     "header-2 header-2"
     "gambar-2 konten-2";
-    height: 55vh;
+    height: 60vh;
     margin-left: 2%;
+    margin-top: 1%;
 
 }
 
@@ -167,8 +168,9 @@ input[type="checkbox"]{
     grid-template-areas: 
     "header-3 header-3"
     "gambar-3 konten-3";
-    height: 55vh;
+    height: 60vh;
     margin-left: 2%;
+    margin-top: 1%;
 }
 
 .kamar-3 .judul-kamar-3{
@@ -206,6 +208,7 @@ input[type="checkbox"]{
   "gambar-4b konten-4b";
   height: 70vh;
   margin-left: 2%;
+  margin-top: -3%;
 }
 
 .fasilitas .judul-fasilitas{
