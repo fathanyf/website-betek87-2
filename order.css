@@ -253,9 +253,9 @@ input[type="checkbox"]{
 @media (max-width: 970px) and (min-width: 500px){
   .pesan{
     height: 40vh;
-    margin-top: 5%;
+    margin-top: 0%;
   }
   .footer{
-    height: 40vh;
+    height: 50vh;
   }
 }

@@ -386,17 +386,14 @@ input[type="checkbox"]{
       margin-top: 10%;
     }
     .isi-about{
-      margin-top: -8%;
+      margin-top: 2%;
     }
     .lokasi{
-      margin-top: -15%;
+      margin-top: -30%;
       height: 60vh;
     }
     .nearby{
-      margin-top: -15%;
+      margin-top: -30%;
       height: 180vh;
-    }
-    .footer{
-      height: 60vh;
     }
   }

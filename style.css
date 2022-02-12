@@ -356,7 +356,15 @@ input[type="checkbox"]{
 /* tablet screen*/
 @media (max-width: 970px) and (min-width: 500px) {
   .karosel .gambar-judul{
-    margin-top: -10%;
+    margin-top: -8%;
+  }
+  .akomodasi{
+    margin-top: 2%;
+    height: 40vh;
+  }
+  .tentang-kami{
+    padding-top: 3%;
+    height: 30vh;
   }
   .gambar-kartu{
     height: 90%;
@@ -365,6 +373,7 @@ input[type="checkbox"]{
   .rating{
     /* height: 20vh; */
     margin-top: 25rem;
+    height: 20vh;
   }
   .footer-inter{
     grid-template-columns: 1fr 1fr;
