@@ -105,6 +105,7 @@ input[type="checkbox"]{
 .kamar-1 .konten-kamar-1{
     grid-area: konten-1;
     margin-left: -10%;
+    margin-top: 3%;
 }
 
 .kamar-1 .gambar-kamar-1{
@@ -114,6 +115,7 @@ input[type="checkbox"]{
 .kamar-1 .kamar1-img{
   height: 90%;
   width: 75%;
+  margin-top: 3%;
 }
 
 .kamar-1 .fasilitas-kamar-1{
@@ -144,6 +146,7 @@ input[type="checkbox"]{
 .kamar-2 .konten-kamar-2{
     grid-area: konten-2;
     margin-left: -10%;
+    margin-top: 3%;
 }
 
 .kamar-2 .fasilitas-kamar-2{
@@ -152,6 +155,7 @@ input[type="checkbox"]{
 
 .kamar-2 .gambar-kamar-2{
     grid-area: gambar-2;
+    margin-top: 3%;
 }
 
 .kamar-2 .kamar2-img{
@@ -170,7 +174,7 @@ input[type="checkbox"]{
     "gambar-3 konten-3";
     height: 60vh;
     margin-left: 2%;
-    margin-top: 1%;
+    margin-top: 0%;
 }
 
 .kamar-3 .judul-kamar-3{
@@ -181,6 +185,7 @@ input[type="checkbox"]{
 .kamar-3 .konten-kamar-3{
     grid-area: konten-3;
     margin-left: -10%;
+    margin-top: 3%;
 }
 
 .kamar-3 .fasilitas-kamar-3{
@@ -189,6 +194,7 @@ input[type="checkbox"]{
 
 .kamar-3 .gambar-kamar-3{
     grid-area: gambar-3;
+    margin-top: 3%;
 }
 
 .kamar-3 .kamar3-img{
@@ -208,20 +214,23 @@ input[type="checkbox"]{
   "gambar-4b konten-4b";
   height: 70vh;
   margin-left: 2%;
-  margin-top: -3%;
+  margin-top: -5%;
 }
 
 .fasilitas .judul-fasilitas{
   grid-area: header-4;
+  margin-top: 3%;
 }
 
 .fasilitas .fasilitas-kamar{
   grid-area: konten-4a;
   margin-left: -10%;
+  margin-top: 3%;
 }
 
 .fasilitas .gambar-fasilitas-kamar{
   grid-area: gambar-4a;
+  margin-top: 3%;
 }
 
 .fasilitas .kamar-fasil-img{

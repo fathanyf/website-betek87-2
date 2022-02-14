@@ -144,7 +144,7 @@ input[type="checkbox"]{
     "gambar-2 konten-2"
     "gambar-2a konten-2a"
     "gambar-2b konten-2b";
-    height: 230vh;
+    height: 250vh;
     padding-top: 5%;
     margin-left: 2%;
 }
@@ -203,6 +203,7 @@ input[type="checkbox"]{
 
 .nearby .list-nearby{
   margin-left: 4%;
+  margin-top: 1%;
 }
 /* footer */
   .footer{
