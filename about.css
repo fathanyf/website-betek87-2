@@ -124,12 +124,14 @@ input[type="checkbox"]{
 
 .lokasi .alamat-hotel{
   grid-area: alamat;
+  margin-top: 2%;
 }
 
 .lokasi .tes-map{
   grid-area: maps;
   height: 250px;
   width: 500px;
+  margin-top: 2%;
 }
 
 
