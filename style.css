@@ -97,6 +97,10 @@ input[type="checkbox"]{
     margin-left: 2%; margin-right: 2%;
     text-align: justify;
   }
+  .akomodasi-card{
+    margin-left: 6%;
+    margin-right: 6%;
+  }
   .column {
     float: left;
     width: 30%;
@@ -176,6 +180,11 @@ input[type="checkbox"]{
     height: 52vh;
     /* margin-right: 3%; */
     margin-left: 2%;
+  }
+
+  .rating .rating-card{
+    margin-left: 6%;
+    margin-right: 6%;
   }
   /* footer */
   .footer-inter{
@@ -307,6 +316,8 @@ input[type="checkbox"]{
   }
   .tentang-kami .tentang-img{
     height: 93%;
+    margin-left: -2%;
+    margin-right: -5%;
   }
   .tentang-kami .gambar-tentang-kami{
     width: 100%;
