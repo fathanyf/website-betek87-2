@@ -299,6 +299,8 @@ input[type="checkbox"]{
   .karosel .gambar-judul{
     height: 12%;
     margin-top: 3%;
+    margin-left: -2%;
+    margin-right: -20%;
   }
   .gambar-kartu{
     height: 100%;
@@ -317,7 +319,7 @@ input[type="checkbox"]{
   .tentang-kami .tentang-img{
     height: 93%;
     margin-left: -2%;
-    margin-right: -5%;
+    margin-right: -10%;
   }
   .tentang-kami .gambar-tentang-kami{
     width: 100%;
